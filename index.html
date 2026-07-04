@@ -1,50 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tend – Privacy Policy</title>
-  <style>
-    body { font-family: -apple-system, sans-serif; max-width: 680px; margin: 60px auto; padding: 0 24px; color: #222; line-height: 1.7; }
-    h1 { font-size: 1.6rem; }
-    h2 { font-size: 1.1rem; margin-top: 2rem; }
-    p, li { font-size: 0.97rem; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Cultivate</title>
+<style>
+  :root {
+    color-scheme: light dark;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 5rem;
+    line-height: 1.6;
+    color: #1c1c1e;
+    background: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #f2f2f7; background: #000000; }
+    a { color: #64d2ff; }
+    .card { background: #1c1c1e; border-color: #2c2c2e; }
+  }
+  h1 { font-size: 1.9rem; margin-bottom: 0.25rem; }
+  h2 { font-size: 1.25rem; margin-top: 2.5rem; margin-bottom: 0.75rem; }
+  h3 { font-size: 1.05rem; margin-top: 1.5rem; margin-bottom: 0.4rem; }
+  p, li { font-size: 1rem; }
+  .effective-date { color: #6e6e73; font-size: 0.9rem; margin-bottom: 2rem; }
+  .card {
+    background: #f5f5f7;
+    border: 1px solid #e5e5ea;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin: 1.5rem 0;
+  }
+  ul { padding-left: 1.3rem; }
+  li { margin-bottom: 0.5rem; }
+  a { color: #007aff; text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  table { width: 100%; border-collapse: collapse; margin: 1rem 0; }
+  th, td { text-align: left; padding: 0.6rem 0.75rem; border-bottom: 1px solid #e5e5ea; font-size: 0.95rem; vertical-align: top; }
+  th { color: #6e6e73; font-weight: 600; }
+  @media (prefers-color-scheme: dark) {
+    th, td { border-color: #2c2c2e; }
+  }
+  footer { margin-top: 4rem; font-size: 0.85rem; color: #6e6e73; }
+</style>
 </head>
 <body>
-  <h1>Privacy Policy</h1>
-  <p><strong>App:</strong> Tend – Relationship Tracker<br>
-     <strong>Developer:</strong> AllReady Apps<br>
-     <strong>Effective date:</strong> May 2, 2026</p>
 
-  <h2>Overview</h2>
-  <p>Tend is designed with your privacy in mind. All data you enter stays on your device. We do not collect, transmit, or store any personal information on external servers.</p>
+<h1>Privacy Policy</h1>
+<p class="effective-date">Effective date: <strong>[FILL IN DATE]</strong></p>
 
-  <h2>Data We Do Not Collect</h2>
-  <ul>
-    <li>We do not collect your name, email, or any personal identifiers</li>
-    <li>We do not collect location data</li>
-    <li>We do not use analytics or tracking tools</li>
-    <li>We do not serve advertisements</li>
-    <li>We do not share any data with third parties</li>
-  </ul>
+<p>
+  Cultivate ("the App," "we," "us") is built around a simple idea: help you be
+  intentional about the relationships that matter to you. This policy explains
+  what information the App collects, how it's used, and the choices you have.
+</p>
 
-  <h2>Data Stored on Your Device</h2>
-  <p>All relationship data, goals, activity logs, and photos you add are stored locally on your device using Apple's SwiftData framework. This data is included in your device's standard iCloud backup if you have iCloud backup enabled — this is managed entirely by Apple and is not accessible to us.</p>
+<div class="card">
+  <strong>The short version:</strong> everything you enter into Cultivate — the
+  people you track, your notes, goals, and photos — stays on your device. We do
+  not operate a server that stores your personal content, and we do not sell or
+  share your data. The only information that leaves your device is a small set
+  of anonymous, aggregate usage signals described below, which are never linked
+  to your identity.
+</div>
 
-  <h2>In-App Purchases</h2>
-  <p>Tend offers a one-time in-app purchase to unlock premium features. All payment processing is handled by Apple. We do not receive or store your payment information.</p>
+<h2>1. Information You Provide</h2>
+<p>
+  When you use Cultivate, you may enter information such as relationship names,
+  photos, notes, goals, special dates, and activity logs. This information is
+  stored entirely on your device using Apple's on-device SwiftData storage
+  framework. We do not have a backend server, and this information is never
+  transmitted to us or to any third party.
+</p>
+<p>
+  Because this data lives on your device, it is included in your device's
+  standard iCloud backup if you have that enabled — the same way your other
+  apps' data is backed up. We do not have access to your iCloud backups.
+</p>
 
-  <h2>Local Notifications</h2>
-  <p>Tend may send local notifications to remind you to connect with people. These notifications are generated entirely on your device and are not routed through any external server.</p>
+<h2>2. Automatically Collected Information (Analytics)</h2>
+<p>
+  Cultivate uses a privacy-focused analytics service called
+  <a href="https://telemetrydeck.com" target="_blank" rel="noopener">TelemetryDeck</a>
+  to understand which parts of the App people find useful, so we know where to
+  invest our development time. This is limited to anonymous, aggregate signals
+  such as:
+</p>
+<ul>
+  <li>The type of relationship created (e.g., "Friend," "Wife," "Mentor") and its priority tier</li>
+  <li>The category or trait of a plan applied (e.g., "Marriage," "Courage — Ages 9–11") — never the plan's private title or your notes</li>
+  <li>The category of a brainstorm goal saved</li>
+  <li>Whether a goal was completed, and its recurrence type</li>
+</ul>
+<p>These signals never include:</p>
+<ul>
+  <li>Names, photos, or any personal content you've entered</li>
+  <li>Your device's advertising identifier (IDFA) or any persistent identifier tied to you</li>
+  <li>Your location, contacts, or any data outside the App itself</li>
+</ul>
+<p>
+  Each signal is independent — we do not set any user identifier that would let
+  us connect two signals together as "the same person," and TelemetryDeck
+  hashes technical identifiers on your device before anything is sent, so
+  nothing is linked back to your identity. Because of this, Cultivate does not
+  need to show Apple's App Tracking Transparency prompt — this analytics
+  approach does not meet Apple's definition of "tracking."
+</p>
 
-  <h2>Children's Privacy</h2>
-  <p>Tend is not directed at children under 13. We do not knowingly collect data from children.</p>
+<h2>3. Purchases</h2>
+<p>
+  Cultivate offers a one-time in-app purchase to unlock premium features.
+  All payment is processed entirely by Apple through StoreKit. We never see,
+  collect, or store your payment card details, billing address, or Apple ID —
+  Apple's own privacy policy governs that transaction.
+</p>
 
-  <h2>Changes to This Policy</h2>
-  <p>If we make material changes to this privacy policy, we will update the effective date above. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+<h2>4. Notifications</h2>
+<p>
+  Cultivate can send you local reminders (for example, about an upcoming goal
+  or special day). These are scheduled entirely on your device using Apple's
+  notification framework. No notification content or scheduling data is sent
+  to us or to any server.
+</p>
 
-  <h2>Contact</h2>
-  <p>Questions? Email us at <a href="mailto:tallred11@gmail.com">tallred11@gmail.com</a></p>
+<h2>5. Photos</h2>
+<p>
+  If you choose to add a photo to a relationship, it is selected using Apple's
+  standard photo picker, stored locally in the App's on-device database, and
+  never uploaded anywhere. We never request or receive access to your full
+  photo library.
+</p>
+
+<h2>6. Third-Party Services</h2>
+<table>
+  <tr><th>Service</th><th>Purpose</th><th>Data involved</th></tr>
+  <tr>
+    <td>Apple (StoreKit)</td>
+    <td>Processing in-app purchases</td>
+    <td>Handled entirely by Apple; we do not receive payment details</td>
+  </tr>
+  <tr>
+    <td>TelemetryDeck</td>
+    <td>Anonymous product-usage analytics</td>
+    <td>Aggregate, non-identifying usage signals described in Section 2</td>
+  </tr>
+</table>
+
+<h2>7. Children's Privacy</h2>
+<p>
+  Cultivate is intended for use by adults who want to be intentional about
+  their relationships — including relationships with their own children. The
+  App is not directed at children under 13, does not require creation of an
+  account, and does not knowingly collect personal information from children.
+  Any information about a child (for example, tracking a parent's relationship
+  with their son or daughter) is entered voluntarily by the adult user and
+  stored only on that adult's own device.
+</p>
+
+<h2>8. Your Rights and Choices</h2>
+<ul>
+  <li>
+    <strong>Your content:</strong> since all relationship data stays on your
+    device, you have complete control over it. Deleting the App deletes this
+    data. You can also delete individual relationships or entries at any time
+    within the App.
+  </li>
+  <li>
+    <strong>Analytics:</strong> because the usage signals described in Section
+    2 are anonymous and not linked to your identity from the moment they're
+    created, we have no way to identify which signals came from you
+    specifically, and therefore cannot access, export, or delete an
+    individual's analytics history on request — there is nothing identifying
+    to look up.
+  </li>
+  <li>
+    <strong>EU/UK users:</strong> if you are located in the European Economic
+    Area or United Kingdom, you may have additional rights under the GDPR/UK
+    GDPR. TelemetryDeck's infrastructure is operated to be compliant with
+    these regulations. Because we do not collect information that identifies
+    you, most individual-rights requests (access, correction, erasure) do not
+    apply to data we hold, as we do not hold data that identifies you.
+  </li>
+</ul>
+
+<h2>9. Data Retention</h2>
+<p>
+  Your relationship content is retained on your device for as long as you keep
+  the App installed, or until you delete it within the App. Anonymous usage
+  signals are retained by TelemetryDeck according to their standard retention
+  practices; since they are not linked to your identity, they cannot be
+  individually deleted on request.
+</p>
+
+<h2>10. Changes to This Policy</h2>
+<p>
+  We may update this policy from time to time — for example, if we add a new
+  feature that changes what information is collected. We'll update the
+  effective date above when we do. We encourage you to review this page
+  periodically.
+</p>
+
+<h2>11. Contact Us</h2>
+<p>
+  If you have questions about this privacy policy or how Cultivate handles
+  information, contact us at
+  <a href="mailto:[FILL IN SUPPORT EMAIL]">[FILL IN SUPPORT EMAIL]</a>.
+</p>
+
+<footer>
+  Cultivate is developed by AllReadyApps.
+</footer>
+
 </body>
 </html>
